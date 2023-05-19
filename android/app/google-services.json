@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "982589010633",
+    "project_id": "garbage-collector-notifier",
+    "storage_bucket": "garbage-collector-notifier.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982589010633:android:09a14dde062c9921b69318",
+        "android_client_info": {
+          "package_name": "com.example.garbagecollector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982589010633-p5uhbaoe6d2s1ltqkg1fi8isocsgfe8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTuV7koupl9nqjsAx2M1UVkdt-2ZXDuBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982589010633-igm7kl3kcpai3ue90i7t642jpvsctmlf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "982589010633-chnd4ko01nair736vb1r50mrag5kqolu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "garbage.alarm.system.app.garbageCollectorNotifier"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982589010633:android:c56b8546e5029f8ab69318",
+        "android_client_info": {
+          "package_name": "com.example.garbagenotifier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982589010633-p5uhbaoe6d2s1ltqkg1fi8isocsgfe8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTuV7koupl9nqjsAx2M1UVkdt-2ZXDuBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982589010633-igm7kl3kcpai3ue90i7t642jpvsctmlf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "982589010633-chnd4ko01nair736vb1r50mrag5kqolu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "garbage.alarm.system.app.garbageCollectorNotifier"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
