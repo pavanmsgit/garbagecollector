@@ -14,6 +14,7 @@ import 'package:garbagecollector/widgets/shimmer.dart';
 import 'package:intl/intl.dart';
 
 import '../../controllers/launch_controller.dart';
+import '../../controllers/location_controller.dart';
 import '../../widgets/addressBar.dart';
 import '../../widgets/posterWidget.dart';
 import 'itemComponent/createItem.dart';
@@ -34,6 +35,8 @@ class _SpacesScreenState extends State<SpacesScreen> {
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       getUserData();
       authController.getUserProfile();
+      locationController.getLocationPermission();
+      locationController.getLatestAddress().whenComplete(() => true);
     });
     super.initState();
   }
